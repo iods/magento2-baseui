@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * An extension of the Iods_Base package, improving FE functionality in Magento 2.
+ *
+ * @package   Iods\BaseUi
+ * @author    Rye Miller <rye@drkstr.dev>
+ * @copyright Copyright (c) 2022, Rye Miller (https://ryemiller.io)
+ * @license   See LICENSE for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Iods_BaseUi" setup_version="0.1.1" schema_version="0.1.1" data_version="0.1.1">
+        <sequence>
+            <module name="Iods_Base" />
+        </sequence>
+    </module>
+</config>

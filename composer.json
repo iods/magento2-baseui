@@ -1,6 +1,6 @@
 {
   "name": "iods/module-baseui",
-  "description": "An extension of the base module improving FE functionality of Magento 2.",
+  "description": "An extension of the Iods_Base package, improving FE functionality in Magento 2.",
   "type": "magento2-module",
   "version": "000.1.0",
   "license": [

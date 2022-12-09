@@ -1,12 +1,12 @@
 <h1 align="center">Magento 2 BaseUi</h1>
 
-An extension of the base module for improving Frontend functionality across Magento 2.
+An extension of the Iods_Base package, improving FE functionality in Magento 2.
 
 Facts
 -----
 
- * Version: 0.1.0 (Development)
- * [Repository on Github](https://github.com/iods/drupal-bones)
+ * Version: 000.1.0
+ * [Repository on Github](https://github.com/iods/magento2-baseui)
  
 
 Description
