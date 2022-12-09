@@ -1,5 +1,4 @@
-Drupal Bones :: CHANGELOG
-=========================
+<h1 align="center">BaseUi Changelog</h1>
 
 All notable changes to this project will be documented in this file.
 
@@ -10,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 
-## [0.1.0] - 2017-11-05
+## [000.1.0] - 2022-12-12
 
 ### Added
  * **Important:** This is the first release.

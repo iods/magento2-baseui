@@ -23,33 +23,14 @@
   },
   "require": {
     "php": ">=8",
+    "iods/module-base": "*",
     "magento/framework": ">=104",
     "symfony/console": "*"
-  },
-  "require-dev": {
-    "phpstan/extension-installer": "*",
-    "phpstan/phpstan": "*",
-    "phpstan/phpstan-phpunit": "*",
-    "phpunit/phpunit": "*",
-    "composer/composer": "*@dev"
   },
   "autoload": {
     "files": ["registration.php"],
     "psr-4": {
       "Iods\\BaseUi\\": "src"
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Iods\\BaseUi\\Tests\\Unit\\": "tests/unit"
-    }
-  },
-  "scripts": {
-    "test": [
-      "@phpstan",
-      "@phpunit"
-    ],
-    "phpstan": "phpstan analyse",
-    "phpunit": "phpunit --no-coverage"
   }
 }
