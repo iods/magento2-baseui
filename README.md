@@ -1,8 +1,6 @@
-Project Boilerplate
-===================
+<h1 align="center">Magento 2 BaseUi</h1>
 
-A starter project for beginning module development in Drupal 8.
-
+An extension of the base module for improving Frontend functionality across Magento 2.
 
 Facts
 -----

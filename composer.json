@@ -1,8 +1,8 @@
 {
-  "name": "iods/module-coreui",
-  "description": "An extension of the core module improving frontend functionality of Magento.",
+  "name": "iods/module-baseui",
+  "description": "An extension of the base module improving FE functionality of Magento 2.",
   "type": "magento2-module",
-  "version": "0.1.0",
+  "version": "000.1.0",
   "license": [
     "MIT"
   ],
@@ -22,26 +22,26 @@
     }
   },
   "require": {
-    "php": ">=7.4",
-    "magento/framework": ">=103",
+    "php": ">=8",
+    "magento/framework": ">=104",
     "symfony/console": "*"
   },
   "require-dev": {
-    "phpstan/extension-installer": "^1.0",
-    "phpstan/phpstan": "^0.11",
-    "phpstan/phpstan-phpunit": "^0.11",
+    "phpstan/extension-installer": "*",
+    "phpstan/phpstan": "*",
+    "phpstan/phpstan-phpunit": "*",
     "phpunit/phpunit": "*",
     "composer/composer": "*@dev"
   },
   "autoload": {
     "files": ["registration.php"],
     "psr-4": {
-      "Iods\\Coreui\\": "src"
+      "Iods\\BaseUi\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Iods\\Coreui\\Tests\\Unit\\": "tests/unit"
+      "Iods\\BaseUi\\Tests\\Unit\\": "tests/unit"
     }
   },
   "scripts": {
