@@ -2,7 +2,7 @@
   "name": "iods/module-baseui",
   "description": "An extension of the Iods_Base package, improving FE functionality in Magento 2.",
   "type": "magento2-module",
-  "version": "000.1.0",
+  "version": "000.1.1",
   "license": [
     "MIT"
   ],
@@ -10,8 +10,7 @@
     {
       "name": "Rye Miller",
       "email": "rye@drkstr.dev",
-      "homepage": "https://ryemiller.io",
-      "role": "Developer"
+      "homepage": "https://ryemiller.io"
     }
   ],
   "minimum-stability": "dev",
@@ -22,15 +21,20 @@
     }
   },
   "require": {
-    "php": ">=8",
+    "php": ">=8.1",
     "iods/module-base": "*",
-    "magento/framework": ">=104",
+    "magento/framework": ">=103.0.5-p1",
     "symfony/console": "*"
   },
   "autoload": {
     "files": ["registration.php"],
     "psr-4": {
       "Iods\\BaseUi\\": "src"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "magento/composer-dependency-version-audit-plugin": true
     }
   }
 }
